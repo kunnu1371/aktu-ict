@@ -1,0 +1,21 @@
+<% include ./partials/auth_header %>
+
+<div class="container_auth">
+  <img
+    src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/2019/07/aktu-favicon.png"
+    alt=""
+  />
+  <% include ./partials/messages %>
+    
+  <form action="/users/login" method="POST">
+    Username or Email
+    <input type="text" name="email" id="email" />
+
+    My Password:
+    <input type="password" name="password" id="password" />
+    <button type="submit">LOGIN</button>
+    Don't have an account?<a href="/users/register">Register</a>
+  </form>
+</div>
+
+<% include ./partials/auth_footer %>

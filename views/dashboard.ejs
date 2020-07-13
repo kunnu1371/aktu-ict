@@ -1,0 +1,197 @@
+
+  <% include ./partials/header %>
+  <body> 
+
+    <!-- Header/banner -->
+    <div class="header" class="container-fluid">
+        <a href="#"><img id="banner" src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/header-aktu-and-ict-1.png" alt="Banner"></a>
+    </div> 
+    <!-- Header/banner Closed-->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a  class="nav-link" href="#" style="border: 2px solid white; border-radius: 5px; ">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="https://secure.gravatar.com/avatar/a0cabdd5fadb4fe7f4d422f3ea2bcbeb?s=30&d=mm&r=g" width="30" height="30" alt="" style="border-radius: 50%;">&nbsp;&nbsp;&nbsp;Welcome <%= user.name %> |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/users/logout">Logout</a>
+            </li>            
+          </ul>
+        </div>  
+      </nav>
+      <br>
+      <!-- Navbar Closed -->
+
+      <!-- Container Class -->
+      <!-- Carousel -->
+      <div class="container">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+    
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/anand-engg-college.jpg" alt="" width="1100" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/Avneesh-Dubey.jpg" alt="" width="1100" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="/slider-accurate.jpg" alt="New York" width="1100" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/slider-shailesh.jpg" alt="New York" width="1100" height="400">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/slider1.png" alt="New York" width="1100" height="400">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- Carousel Closed -->
+
+          <br>
+         
+         <p style=" color: red; font-weight: 600;">
+                Only second year students of aktu can access it. All such students have already been registered on the portal, and allocated the two mandatory courses (choose any one of them) / password sent to their MOOCs coordinator. In case you have not received your password, please ask your college coordinator to send an email to ict@iitk.ac.in from their official email id.
+         </p>
+         <br><br>
+         <p >
+            Indian Institute of Technology, Kanpur and Dr. Abdul Kalam Technical University have launched an ICT Platform with embedded Intelligent Teaching Management System (ITMS) developed with support from Ministry of Electronics and Information Technology (MeitY) for the benefit of the students and teachers of affiliating/associated colleges.This platform uses proprietary learning augmentation technology incorporating Artificial Intelligence (AI) and Machine Learning (ML). This platform will enable both students and faculty to enhance their coding skills, provide access to industry-oriented ICT contents developed by domain experts, enable summer internships, assess students ICT skills, provide blended learning support and virtual lab management for faculty.
+         </p>
+         <h5>AKTU Announcements:</h5>
+         <!-- Table -->
+         <table class="table table-striped table-bordered">
+            <tbody>
+              <tr>
+                <td><a href="">About examination of non credit courses (KNC301/KNC302) of B. Tech. 2nd year</a></td>
+                <td>13-Nov-2019</td>
+              </tr>
+              <tr>
+                <td><a href="">Evaluation Scheme & Syllabus for B.Tech. 2nd Syllabus of Non Credit Courses on Choice Based Credit System</a></td>
+                <td>13-Nov-2019</td>
+              </tr>
+              <tr>
+                <td><a href="">Regarding registration of KNC301/KNC302 at ICT IITK (MOOCs) course</a></td>
+                <td>06-Aug-2019</td>
+              </tr>
+              <tr>
+                  <td><a href="">  Regarding B.Tech. Course in IInd Year( Non Credit Courses) </a></td>
+                  <td>11-Jul-2019</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Table Closed -->
+         
+        <div class="row">
+            <div class="col-xl-6">
+          <h3><a href="#">KNC401: Computer System Security</a></h3>
+          <ol style="border: 2px solid black; border-radius: 5px;"><br>
+            <li>To see the complete schedule of Computer System Security quiz and video lectures <a href="#" style="color: #EF3A43;"> click here.</a></li>
+            <li>10th week CSS quiz open from 12th May till 13th May 6:00 PM</li>
+            <li>11th week CSS quiz open from 25th May till 26th May 6:00 PM</li>
+            <li> <mark>Special quiz 1 for the students who opted for Certification is on 29th May 2020</mark> </li>
+           <br>
+        </ol>
+           </div>
+           <div class="col-xl-6">
+        <h3><a href="#">KNC402: Python Programming</a></h3>
+          <ol style="border: 2px solid black; border-radius: 5px;"><br>
+            <li>To see the complete schedule of Computer System Security quiz and video lectures <a href="#" style="color: #EF3A43;"> click here.</a></li>
+            <li>10th week CSS quiz open from 12th May till 13th May 6:00 PM</li>
+            <li>11th week CSS quiz open from 25th May till 26th May 6:00 PM</li>
+            <li> <mark>Special quiz 1 for the students who opted for Certification is on 29th May 2020</mark> </li>
+           <br></div>
+        </div>
+          <div  style="text-align: center;">
+            <h3>MANDATORY COURSES FOR BTECH SECOND YEAR STUDENTS (CHOOSE ANY ONE)</h3>
+            <HR WIDTH="5%" COLOR="#FF0000" SIZE="4" style="border: 2.5px solid red;">
+            <div>
+              <a href="#"><img class="col-md-5" src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/Computer-System-Security-KNC401.jpg" alt=""></a>
+              <a href="#"><img class="col-md-5" src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/python-programming-knc402.jpg" alt=""></a>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+
+    <!--Container class closed-->
+        
+    <HR WIDTH="100%" COLOR="grey" SIZE="1" style="border: .5px solid grey;">
+        <!-- AKTU Logo -->
+        <div style="text-align: center;">
+            <img  style="width: 150px; height: 150px;" src="https://s.aktu.ictacademyiitk.ac.in/wp-content/uploads/2019/07/aktu-favicon.png" alt="">
+        </div>
+        <br>
+     
+
+
+      <!-- FOOTER -->
+      <footer>
+          <div class="container-fluid" style="background-color: #EF3A43;">
+            <div style="width: 80%; margin-left: 12%; margin-right: 10%;">
+              <p style="color:white; font-size: medium;">
+                <br>
+                समय बचाने और वास्तव में मुद्दों को हल करने के लिए, क्या आप कृपया कर सकते हैं<br><br>
+                1. एक एकल ईमेल में समस्या को स्पष्ट रूप से समझाएं (ईमेल के "body" में)।<br><br>
+                2. एक स्क्रीनशॉट संलग्न करें यदि यह समस्या को स्पष्ट करने में मदद करता है<br><br>
+                - जैसे कि लॉगिन से संबंधित समस्या के लिए लॉगिन पेज का स्क्रीनशॉट संलग्न करें (स्पष्ट रूप से अपना लॉगिन पृष्ठ दिखा रहा है)<br><br>
+                3. जब भी आप ict@iitk.ac.in पर ईमेल भेज रहे हों तो अपना रोल नंबर और s.aktu आईडी अवश्य शामिल करें<br>
+                <br>
+                <br>
+                <br>
+                To save time and actually resolve issues, can you pleasebr <br><br>
+                1. In one single email explain the problem clearly (in the "body" of the email). <br><br>
+                2. Attach a screenshot if it helps makes the problem clear - for eg for login related problem attach a screenshot of login page (clearly showing your login id) <br><br>
+                3. Must include your roll number and s.aktu id whenever you are sending email to ict@iitk.ac.in
+                <br>
+                <br>
+                <br>
+                <br>
+                If you have any certificate related query please contact at ict@iitk.ac.in or whatsapp at 8429197412 (Whatsapp message only) <br><br>
+                Copyright © 2020 | Electronics & ICT Academy, IIT Kanpur | All Rights Reserved | Contact us at ict@iitk.ac.in <br>
+            </div>
+            </p>
+            <br>
+                <ul class="socialmedia-icons">
+                    <li style="margin-right: 1%;"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li></a>
+                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></li></a>
+                </ul>
+                <br><br><br>
+            </div>
+        </footer>
+
+        <!-- FOOTER closed -->
+        
+     
+      
+
+
+</body>
+</html>
